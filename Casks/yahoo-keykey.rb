@@ -7,7 +7,7 @@ cask 'yahoo-keykey' do
   name 'Yahoo! KeyKey Chinese input method engine (IME)'
   homepage 'https://github.com/zonble/ykk_installer'
 
-  pkg 'KeyKey.pkg'
+  pkg 'YahooKeyKey.pkg'
 
   uninstall signal: [['TERM', 'com.yahoo.inputmethod.KeyKey.InstallerHelp']], pkgutil: 'com.yahoo.inputmethod.keykey'
 end
